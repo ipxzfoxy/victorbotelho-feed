@@ -1,0 +1,17 @@
+{
+  "name": "victor-feed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Feed estático em Markdown com build em Node.js.",
+  "scripts": {
+    "build": "node blog.mjs build",
+    "post": "node blog.mjs post",
+    "emp": "node blog.mjs emp",
+    "unemp": "node blog.mjs unemp",
+    "dev": "node blog.mjs dev"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
