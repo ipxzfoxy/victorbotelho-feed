@@ -1,0 +1,40 @@
+[
+  {
+    "id": "outubro-comecou",
+    "title": "Outubro começou",
+    "description": "Outubro chegou",
+    "excerpt": "Outubro de 2026 chegou... Bora ver o que tenho planejado pra esse mês? O mês já começou com Disfox ganhando 3 releases . E dá pra dizer com certeza que esse mês vai ser bem...",
+    "date": "2026-10-06",
+    "category": "ideas",
+    "banner": null,
+    "featured": false,
+    "badges": [],
+    "tags": [],
+    "authors": [
+      {
+        "name": "@Victor Botelho Anunciação",
+        "link": null
+      }
+    ],
+    "url": "/posts/outubro-comecou/"
+  },
+  {
+    "id": "recap-de-setembro",
+    "title": "Recap de Setembro",
+    "description": "RECAP DE SETEMBRO - Victor Botelho Anunciação",
+    "excerpt": "Setembro foi um mês de MUITO foco no ProtoIndigo 2.1. Estive desenvolvendo a versão 2.1 durante setembro. e fiz uma grande limpeza no projeto, muitas refatorações e...",
+    "date": "2026-10-05",
+    "category": "recap",
+    "banner": "/images/posts/set-recap.png",
+    "featured": true,
+    "badges": [],
+    "tags": [],
+    "authors": [
+      {
+        "name": "@Victor Botelho Anunciação",
+        "link": "https://victorbotelho.com.br"
+      }
+    ],
+    "url": "/posts/recap-de-setembro/"
+  }
+]
