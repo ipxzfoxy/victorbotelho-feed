@@ -5,7 +5,7 @@ description: "ProtoIndigo 2.1.0-beta já está disponível! Bora conferir tudo o
 date: "2026-10-19"
 category: projects
 banner: "images/posts/pit2.1.0-beta.png"
-featured: false
+featured: true
 draft: false
 badges: []
 tags: []

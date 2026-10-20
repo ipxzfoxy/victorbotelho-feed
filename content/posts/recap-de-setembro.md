@@ -5,7 +5,7 @@ description: "RECAP DE SETEMBRO - Victor Botelho Anunciação"
 date: "2026-10-05"
 category: recap
 banner: "images/posts/set-recap.png"
-featured: true
+featured: false
 draft: false
 badges:
 tags:
