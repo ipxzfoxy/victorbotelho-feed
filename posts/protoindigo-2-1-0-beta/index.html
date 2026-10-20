@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProtoIndigo 2.1.0-beta — Victor Botelho Anunciação</title>
+  <meta name="description" content="ProtoIndigo 2.1.0-beta já está disponível! Bora conferir tudo o que essa versão está trazendo?">
+  
+  <meta name="author" content="@Victor Botelho A.">
+  <link rel="canonical" href="https://blog.victorbotelho.com.br/posts/protoindigo-2-1-0-beta/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="ProtoIndigo 2.1.0-beta">
+  <meta property="og:description" content="ProtoIndigo 2.1.0-beta já está disponível! Bora conferir tudo o que essa versão está trazendo?">
+  <meta property="og:url" content="https://blog.victorbotelho.com.br/posts/protoindigo-2-1-0-beta/">
+  <meta property="og:image" content="https://blog.victorbotelho.com.br/images/posts/pit2.1.0-beta.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ProtoIndigo 2.1.0-beta">
+  <meta name="twitter:description" content="ProtoIndigo 2.1.0-beta já está disponível! Bora conferir tudo o que essa versão está trazendo?">
+  <meta name="twitter:image" content="https://blog.victorbotelho.com.br/images/posts/pit2.1.0-beta.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"ProtoIndigo 2.1.0-beta","description":"ProtoIndigo 2.1.0-beta já está disponível! Bora conferir tudo o que essa versão está trazendo?","datePublished":"2026-10-19","dateModified":"2026-10-19","mainEntityOfPage":"https://blog.victorbotelho.com.br/posts/protoindigo-2-1-0-beta/","author":{"@type":"Person","name":"@Victor Botelho A."},"publisher":{"@type":"Person","name":"Victor Botelho Anunciação"},"image":["https://blog.victorbotelho.com.br/images/posts/pit2.1.0-beta.png"]}</script>
+  <style>
+:root{--bg:#f6faff;--surface:#fff;--text:#10213a;--muted:#66758d;--blue:#2f80ed;--blue-strong:#1769d2;--blue-dark:#0f4fa8;--line:#dbe9f8;--chip:#eaf4ff;--shadow:0 18px 50px rgba(47,128,237,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(circle at 15% 0%,rgba(86,169,255,.16),transparent 30rem),radial-gradient(circle at 90% 10%,rgba(42,115,246,.10),transparent 28rem),var(--bg);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh}a{color:inherit;text-decoration:none}.page{width:min(1160px,calc(100% - 36px));margin:0 auto}body>header{position:sticky;top:0;z-index:50;backdrop-filter:blur(18px);background:rgba(246,250,255,.78);border-bottom:1px solid rgba(219,233,248,.75)}.nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:-.02em}.brand-mark{width:38px;height:38px;display:grid;place-items:center;border-radius:12px;color:#fff;background:linear-gradient(135deg,#57a9ff,#1f6fe5);box-shadow:0 8px 22px rgba(47,128,237,.28);font-family:"Space Grotesk",sans-serif}.brand-title{font-weight:800}.brand-path{color:var(--muted);font-weight:600}.nav-links{display:flex;align-items:center;gap:8px}.nav-links a{color:var(--muted);padding:10px 13px;border-radius:12px;font-size:14px;font-weight:600}.nav-links a.active{color:var(--blue-strong);background:var(--chip)}.nav-cta{color:#fff!important;background:var(--blue);box-shadow:0 8px 18px rgba(47,128,237,.2)}.post-page{width:min(820px,calc(100% - 32px));margin:0 auto;padding:58px 0 40px}.back{display:inline-flex;margin-bottom:34px;color:var(--blue-strong);font-weight:800}.post-header{text-align:left}.tag{display:inline-flex;padding:7px 10px;border-radius:999px;background:var(--chip);color:var(--blue-dark);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.post-header h1{font-family:"Space Grotesk",sans-serif;font-size:clamp(40px,7vw,68px);line-height:1.02;letter-spacing:-.05em;margin:20px 0 16px}.post-description{color:var(--muted);font-size:18px;line-height:1.7;margin:0 0 20px}.meta{display:flex;gap:10px;flex-wrap:wrap;color:#8493a7;font-size:13px;margin-top:20px}.card-badges{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 0}.mini-badge{display:inline-flex;padding:5px 8px;border-radius:999px;background:var(--chip);color:var(--blue-dark);font-size:11px;font-weight:800}.social-origins{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.social-origin{display:inline-flex;color:var(--blue-strong);font-size:12px;font-weight:800}.authors{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.authors-label{color:#8493a7}.authors-post{margin:18px 0 2px;font-size:15px}.authors-post .author-link,.authors-post .author-name{font-weight:800;color:var(--blue-strong);padding:6px 10px;border-radius:999px;background:var(--chip)}.author-separator{color:#afbac8}.post-banner{width:100%;max-height:470px;object-fit:cover;border-radius:24px;border:1px solid var(--line);box-shadow:var(--shadow);margin:38px 0 12px}.post-content{margin-top:46px;font-size:17px;line-height:1.82}.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{font-family:"Space Grotesk",sans-serif;letter-spacing:-.03em;line-height:1.18;scroll-margin-top:100px}.post-content h1{font-size:38px;margin:58px 0 18px}.post-content h2{font-size:31px;margin:50px 0 16px}.post-content h3{font-size:25px;margin:42px 0 14px}.post-content p{margin:0 0 22px}.post-content a{color:var(--blue-strong);text-decoration:underline;text-decoration-color:#9ec8ff;text-underline-offset:3px}.post-content strong{font-weight:800}.post-content blockquote{margin:30px 0;padding:16px 20px;border-left:4px solid var(--blue);background:rgba(234,244,255,.72);border-radius:0 14px 14px 0;color:#35516f}.post-content blockquote p:last-child{margin-bottom:0}.post-content pre{overflow:auto;padding:20px;border-radius:18px;background:#10213a;color:#eaf4ff;border:1px solid rgba(255,255,255,.08);box-shadow:0 14px 36px rgba(16,33,58,.12);font-size:14px;line-height:1.65}.post-content code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.post-content :not(pre)>code{padding:2px 6px;border-radius:7px;background:#eaf4ff;color:#174f8f;font-size:.92em}.post-content ul,.post-content ol{padding-left:26px;margin:0 0 24px}.post-content li{margin:7px 0}.post-content hr{border:0;border-top:1px solid var(--line);margin:42px 0}.post-content img{max-width:100%;height:auto;border-radius:16px}.post-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:44px;padding-top:28px;border-top:1px solid var(--line)}.post-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 15px;border-radius:13px;background:var(--blue);color:#fff;font-weight:800;box-shadow:0 8px 20px rgba(47,128,237,.18);transition:.2s ease}.post-button:hover{transform:translateY(-2px);background:var(--blue-strong)}.site-footer{padding:58px 0 66px;margin-top:56px;color:#8190a4;font-size:14px;display:flex;justify-content:space-between;align-items:flex-end;gap:28px;flex-wrap:wrap}.footer-main{display:flex;flex-direction:column;gap:8px}.footer-main strong{color:var(--text);font-family:"Space Grotesk",sans-serif;font-size:18px}.footer-main span{font-size:15px}.footer-meta{display:flex;align-items:center;gap:16px}.footer-meta a{color:var(--blue-strong);font-weight:800}@media(max-width:640px){.page{width:min(100% - 24px,1160px)}.nav-links a:not(.nav-cta):not(.active){display:none}.nav{min-height:66px}.post-page{padding-top:38px}.post-header h1{font-size:42px}.post-content{font-size:16px}}
+</style>
+</head>
+<body>
+  <header>
+    <div class="page nav">
+      <a class="brand" href="/">
+        <span class="brand-mark">VB</span>
+        <span class="brand-title">Victor Botelho Anunciação <span class="brand-path">&gt; Feed</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="https://victorbotelho.com.br/">Início</a>
+        <a class="active" href="/">Feed</a>
+        <a class="nav-cta" href="https://victorbotelho.com.br/portfolio">Portfólio ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="post-page">
+    <a class="back" href="/">← Voltar para o Feed</a>
+    <article>
+      <header class="post-header">
+        <span class="tag">Projetos</span>
+        <h1>ProtoIndigo 2.1.0-beta</h1>
+        <p class="post-description">ProtoIndigo 2.1.0-beta já está disponível! Bora conferir tudo o que essa versão está trazendo?</p>
+        <div class="authors authors-post"><span class="authors-label">Por</span><span class="author-name">@Victor Botelho A.</span></div>
+        
+        
+        <div class="meta"><span>19 de outubro de 2026</span><span>•</span><span>3 min de leitura</span></div>
+      </header>
+      <img class="post-banner" src="/images/posts/pit2.1.0-beta.png" alt="Banner de ProtoIndigo 2.1.0-beta">
+      <div class="post-content"><p>ProtoIndigo 2.1 beta já está disponível! Bora conferir tudo o que essa versão está trazendo?</p>
+<p>Essa versão foca totalmente em refatoração, reforma na arquitetura, inovações, novas funcionalidades e mudanças na sintaxe. Além de colocar em foco seu novo sistema de <strong>Embedding</strong>.</p>
+<p>Estou criando uma <strong>Standard Library</strong> para a linguagem <strong>Bre</strong> <em>(sim, o nome da linguagem será este)</em>, e, com ela, vieram duas novas formas de obter a versão da BreVM e do interpretador, através dos símbolos:</p>
+<pre><code class="language-bre">std_vm_version
+std_version</code></pre>
+<p>Que são APIs simples, expostas pela classe <code>Operation</code>.</p>
+<p>E estou trabalhando no novo sistema de módulos e bibliotecas nativas da linguagem, para ela poder se tornar mais útil em aplicações C++.</p>
+<p>Vou deixar pra mostrar um pouco da API de bibliotecas pro final.</p>
+<p>Além disso, as atualizações futuras da BreVM estão chegando para colaborar com as novas funcionalidades da linguagem:</p>
+<h2 id="brevm-groups">BreVM Groups</h2>
+<p>Como arrays, que também funcionam como objetos!</p>
+<h2 id="brevm-nativefunctions">BreVM NativeFunctions</h2>
+<p>Funções nativas expostas na BreVM.</p>
+<p>E, com isso, eu acho que as funções e as funções nativas estão bem perto de chegar no ProtoIndigo.</p>
+<p><strong>E depois vamos poder dizer adeus à instrução <code>proto</code> da linguagem!</strong></p>
+<h2 id="sintaxe-protoindigo">Sintaxe ProtoIndigo</h2>
+<p>A sintaxe recebeu atualizações! Agora, a linguagem abandonou o antigo estilo para declaração de constantes:</p>
+<pre><code class="language-bre">new const x = 10;</code></pre>
+<p>E passa a aceitar somente:</p>
+<pre><code class="language-bre">now x = 10;</code></pre>
+<p>Escolhi essa sintaxe porque dá mais característica à linguagem e é bem menos verbosa que a versão antiga.</p>
+<h3 id="labels-goto">Labels &amp; Goto</h3>
+<p><strong>É REAL!</strong> ProtoIndigo agora possui o primeiro sistema de controle de fluxo!</p>
+<p>Agora, é possível marcar pontos específicos no código e redirecionar a execução da BreVM para exatamente o mesmo ponto, através de um identificador:</p>
+<pre><code class="language-bre">label casa</code></pre>
+<p>E voltar para aquele ponto específico com:</p>
+<pre><code class="language-bre">go to casa</code></pre>
+<p>Esse exemplo faz o código ficar rodando infinitamente. Por exemplo:</p>
+<pre><code class="language-bre">new #String _txt = &quot;ProtoIndigo &quot; + std_version;
+label casa
+proto _txt
+go to casa</code></pre>
+<p>Aqui, a instrução <code>proto _txt</code> vai ser executada até que alguém encerre o programa.</p>
+<h3 id="expressoes-aritmeticas">Expressões aritméticas</h3>
+<p>Também com foco nas expressões aritméticas, elas foram expandidas e melhoradas. Com expressões entre parênteses, incremento, decremento, multiplicação e precedência corrigida, a experiência com essas expressões mudou muito.</p>
+<pre><code class="language-bre">now x = 10 - (10 * 2);
+now y = 2x;</code></pre>
+<p>Percebeu algo diferente? Pois é! Agora temos suporte para multiplicação implícita, que segue a seguinte sintaxe:</p>
+<pre><code class="language-bre">now x = 10 * (10 * 2);
+now y = 2x;
+now z = 2(10 / 2);</code></pre>
+<p>Que são equivalentes a:</p>
+<pre><code class="language-bre">now x = 10 * (10 * 2);
+now y = 2 * x;
+now z = 2 * (10 / 2);</code></pre>
+<p>E também temos instruções de incremento e decremento:</p>
+<pre><code class="language-bre">x++ // adiciona 1
+x-- // remove 1</code></pre>
+<h3 id="pre-instructions">Pre Instructions</h3>
+<p>Instruções de pré-execução são instruções que ocorrem antes da execução do código na VM. E a inclusão de arquivos entrou nessa categoria:</p>
+<pre><code class="language-bre">pre include &quot;module.bre&quot;
+// Substituindo include &quot;module.bre&quot;</code></pre>
+<p>Calma, comentários? Pois é! Agora temos suporte a comentários na linguagem. O Tokenizer os ignora completamente e não os passa nem pro Parser.</p>
+<p>Pretendo adicionar comentários de várias linhas mais tarde.</p>
+<p>E essa é só a versão beta! ProtoIndigo 2.1 vai trazer muitas novidades.</p>
+<p>Estive pensando na seguinte API para embedding e criação de libs nativas:</p>
+<pre><code class="language-cpp">#include &lt;indigo.h&gt;
+#include &lt;brevm.h&gt;
+#include &lt;iostream&gt;
+
+void print(brevm::String conteudo)
+{
+    std::cout &lt;&lt; conteudo &lt;&lt; std::endl;
+}
+
+int main()
+{
+    indigo::Operation O;
+    indigo::Lib lib(&quot;MinhaLib&quot;);
+
+    lib.symbol(&quot;print&quot;, brevm::NativeFunction(print));
+
+    O.installLibrary(lib); // Instala a lib no Operation
+
+    O.loadString(&quot;print(&#039;HelloWorld!&#039;)&quot;);
+}</code></pre>
+<p>Planejo fazer com que as NativeFunctions sejam capazes de obter e se adaptar aos tipos e parâmetros das funções.</p>
+<p><em>Essa API não existe ainda, então não será compilada atualmente</em>.</p></div>
+      
+    </article>
+  </main>
+
+  <footer class="page site-footer">
+    <div class="footer-main">
+      <strong>Victor Botelho Anunciação</strong>
+      <span>Aprendendo, e criando todos os dias. ☕</span>
+    </div>
+    <div class="footer-meta">
+      <a href="/feed.xml">RSS Feed</a>
+      <span>© 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
